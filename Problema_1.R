@@ -2,7 +2,7 @@
 library(dplyr)  # Para manipulación de datos
 
 # Cargar el dataset desde un archivo CSV
-ventas <- read.csv("ventas.csv", stringsAsFactors = FALSE)
+ventas <- read.csv("C:/Users/sosad/Downloads/Evaluacionventas.csv", stringsAsFactors = FALSE)
 
 # Ver las primeras filas del dataset
 head(ventas)
