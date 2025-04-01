@@ -2,8 +2,8 @@
 library(dplyr)
 
 #Cargar y explorar los datasets
-clientes <- read.csv("clientes.csv")  # Cargar dataset de clientes
-compras <- read.csv("compras.csv")    # Cargar dataset de compras
+clientes <- read.csv("C:/Users/sosad/Downloads/clientes.csv")  # Cargar dataset de clientes
+compras <- read.csv("C:/Users/sosad/Downloads/compras.csv")    # Cargar dataset de compras
 
 #Fusionar los datos usando left_join()
 fusionado <- left_join(clientes, compras, by = "id_cliente")
