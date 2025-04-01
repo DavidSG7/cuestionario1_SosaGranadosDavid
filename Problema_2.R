@@ -6,7 +6,7 @@ library(dplyr)  # Para manipulación de datos
 # -------------------------------
 
 # Cargar el dataset desde un archivo CSV
-ruta_archivo <- "redesociales.csv"
+ruta_archivo <- "C:/Users/sosad/Downloads/redesociales.csv"
 red <- read.csv(ruta_archivo, stringsAsFactors = FALSE)
 
 # Revisar estructura del dataset
