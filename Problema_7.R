@@ -1,7 +1,7 @@
 # ---------------------------------------
 # **1️⃣ Cargar el dataset de indicadores financieros**
 # ---------------------------------------
-df <- read.csv("empresa.csv")
+df <- read.csv("C:/Users/sosad/Downloads/empresa.csv")
 
 # Seleccionar solo columnas numéricas para el análisis
 columnas_numericas <- df[, c("Ingresos", "utilidadNeta", "margenNeto", "ROE", "Liquidez", "Endeudamiento", "PERatio")]
